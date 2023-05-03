@@ -13,6 +13,7 @@
   --border-color: rgb(142, 143, 153);
   --icon-hover-color: rgb(64, 75, 191);
   --footer-text-color: #FFFFFF;
+  --ovarley-text-color: rgb(244, 244, 253);
 }
 
 body {
@@ -567,6 +568,21 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--secondary-btn-bg-color);
   border-top: none;
+}
+
+.products-overley {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--ovarley-text-color);
+  background-color: rgb(77, 90, 229, 0.7);
 }
 
 .products-link {
